@@ -1,0 +1,97 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.tarjeta {
+	position: relative;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 68px;
+    position: absolute;
+    left: 220px;
+    top: 30px;
+}
+
+.fondo {
+	background-image: url(../img/fondo.png);
+    width: 600px;
+	height: 400px;
+	position: relative;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #2E2E2D;
+    border-left: 300px solid transparent;
+    position: absolute;
+    left: 220px;
+    top: 0;
+}
+
+.rectangulo {
+    width: 300px;
+    height: 400px;
+    background: #2E2E2D;
+    position: absolute;
+    left: 520px;
+    top: 0;
+}
+
+.icono {
+	background-image: url(../img/isotipo.png);
+	background-repeat: no-repeat;
+    position: absolute;
+	width: 90px;
+	height: 90px;    
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.nombre {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 30px;
+    right: 120px;
+ }
+
+.trabajo {
+    color: #FB9200;
+    font-size: 1em;
+    position: absolute;
+    top: 120px;
+    right: 123px;
+    text-align: center;
+}
+
+.datos {
+    color: whitesmoke;
+    font-size: 1.0em;	
+    font-weight: 300;
+    bottom: -20px;    
+}
+
+.telefono {
+    position: absolute;
+    top: 210px;
+    left: 430px;	
+}
+
+.email {
+    position: absolute;
+    top: 230px;
+    left: 430px;	
+}
+
+.direccion {
+    position: absolute;
+    top: 250px;
+    left: 430px;	
+}
